@@ -1,4 +1,6 @@
 // Simple journal entry input (no empty entries) validation added
+// Implemented input validation and confirm overwrite in saving file names in Journal.cs
+
 
 using System;
 
