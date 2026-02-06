@@ -1,7 +1,6 @@
 // Added a session summary to display counts of each activity completed.
 
 using System;
-using System.Diagnostics;
 
 class Program
 {
