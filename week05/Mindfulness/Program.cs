@@ -20,37 +20,37 @@ class Program
             Console.WriteLine("3. Start Listing Activity");
             Console.WriteLine("4. Quit");
             Console.Write("Select a choice from the menu: ");
-            string choice = Console.ReadLine();
 
-            Activity activity = null;
+            string choice = Console.ReadLine();
 
             switch (choice)
             {
                 case "1":
-                    activity = new BreathingActivity();
-                    activity.Run();
+                    BreathingActivity breathing = new BreathingActivity();
+                    breathing.Run();
                     breathingCount++;
                     break;
                 case "2":
-                    activity = new ReflectingActivity();
-                    activity.Run();
+                    ReflectingActivity reflecting = new ReflectingActivity();
+                    reflecting.Run();
                     reflectingCount++;
                     break;
                 case "3":
-                    activity = new ListingActivity();
-                    activity.Run();
+                    ListingActivity listing = new ListingActivity();
+                    listing.Run();
                     listingCount++;
                     break;
                 case "4":
                     running = false;
-                    continue;
+                    break;
+
                 default:
                     Console.WriteLine("Invalid choice. Please select a valid option.");
                     Console.WriteLine("Press enter to continue...");
                     Console.ReadLine();
                     continue;
             }
-             activity.Run();
+            
         }
         Console.Clear();
         Console.WriteLine("Session Summary:");

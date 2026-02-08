@@ -38,7 +38,7 @@ public class ListingActivity : Activity
         GetListFromUser();
 
         Console.WriteLine();
-        Console.WriteLine($"You listed {itemCount} items! Well done!");
+        Console.WriteLine($"You listed {_count} items! Well done!");
 
         DisplayEndMessage();
     }
