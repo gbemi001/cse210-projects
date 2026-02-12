@@ -1,0 +1,24 @@
+public class Shape
+{
+    public string _color;
+    
+    public string GetColor()
+    {
+        return _color;
+    }
+
+    public void SetColor(string color)
+    {
+        _color = color;
+    }
+
+    public void ColorShape(string color)
+    {
+        _color = color;
+    }
+
+    public virtual double GetArea()
+    {
+        return 0;
+    }
+}
