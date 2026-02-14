@@ -1,0 +1,3 @@
+600
+SimpleGoal|Finish my assignment|I need to complete my CSE210 Assignment this weekend|100|True
+EternalGoal|Travel abroad|I need to visit another country for exposure|500
